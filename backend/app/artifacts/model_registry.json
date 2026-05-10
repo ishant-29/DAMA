@@ -1,0 +1,29 @@
+{
+  "random_forest": {
+    "model_path": "app/artifacts/random_forest_model__v20251217092217.pkl",
+    "timestamp": "20251217092217",
+    "params": {
+      "n_estimators": 100,
+      "max_depth": 10,
+      "random_state": 42
+    },
+    "type": "random_forest",
+    "test_metrics": {
+      "roc_auc": 0.75,
+      "accuracy": 0.8461538461538461,
+      "precision": 0.0
+    }
+  },
+  "xgboost": {
+    "model_path": "app/artifacts/xgboost_model__v20251212171514__no_git.pkl",
+    "metrics": {
+      "train_score": 1.0
+    },
+    "version": "20251212171514",
+    "test_metrics": {
+      "roc_auc": NaN,
+      "accuracy": 0.9534883720930233,
+      "precision": 0.0
+    }
+  }
+}

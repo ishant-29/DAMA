@@ -1,0 +1,29 @@
+{
+  "feature_list": [
+    "ema10_ema20_diff",
+    "ema10_slope",
+    "close_ema50_diff",
+    "darvas_breakout_flag",
+    "volume_ratio",
+    "atr_ratio",
+    "ret_1d",
+    "ret_3d",
+    "ret_7d",
+    "ret_14d",
+    "ret_30d"
+  ],
+  "params": {
+    "objective": "binary:logistic",
+    "eval_metric": "logloss",
+    "eta": 0.1,
+    "max_depth": 4,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "seed": 42
+  },
+  "git_sha": "no_git",
+  "trained_at": "20251209064219",
+  "metrics": {
+    "train_score": 1.0
+  }
+}

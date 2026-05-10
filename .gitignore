@@ -1,0 +1,54 @@
+# ── Environment & Secrets ── FIXED: S9-02
+.env
+.env.local
+.env.production
+
+# ── Logs ── FIXED: S9-03
+*.log
+logs/
+logs*.txt
+error*.log
+
+# ── Database ── FIXED: S9-05
+*.db
+*.sqlite3
+
+# ── Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+
+# ── Node
+node_modules/
+npm-debug.log*
+
+# ── Build Output
+frontend/dist/
+frontend/build/
+*.tsbuildinfo
+
+# ── IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS
+.DS_Store
+Thumbs.db
+
+# ── ML Artifacts
+*.joblib
+*.pkl
+app/artifacts/*.joblib
+
+# ── Cache
+.cache/
+*.pyc

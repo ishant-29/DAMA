@@ -1,0 +1,10 @@
+data_path: sample_data/nse500_sample.csv
+artifacts_path: app/artifacts
+lookahead_days: 7
+models:
+  - random_forest
+ml_confidence_threshold: 0.65
+params:
+  xgboost:
+    eta: 0.1
+    max_depth: 4
